@@ -6,6 +6,8 @@
 #include "GameFramework/Character.h"
 #include "ShooterCharacter.generated.h"
 
+class USpringArmComponent;
+
 UCLASS()
 class SHOOTER_API AShooterCharacter : public ACharacter
 {
@@ -25,5 +27,11 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+private:
+	USpringArmComponent* CameraBoom;
+
+public:
+	FORCEINLINE USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
 };
