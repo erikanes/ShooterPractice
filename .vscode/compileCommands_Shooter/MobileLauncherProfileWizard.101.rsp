@@ -1,5 +1,5 @@
 /FI "F:\Epic Games\UE_5.0\Engine\Plugins\Editor\MobileLauncherProfileWizard\Intermediate\Build\Win64\UnrealEditor\Development\MobileLauncherProfileWizard\Definitions.MobileLauncherProfileWizard.h" 
-/FI "F:\Unreal Projects\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\Slate\SharedPCH.Slate.ShadowErrors.h" 
+/FI "F:\erikanes\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\Slate\SharedPCH.Slate.ShadowErrors.h" 
 /I "F:\Epic Games\UE_5.0\Engine\Source" 
 /I "F:\Epic Games\UE_5.0\Engine\Plugins\Editor\MobileLauncherProfileWizard\Source\MobileLauncherProfileWizard\Private" 
 /I "F:\Epic Games\UE_5.0\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\LauncherServices" 

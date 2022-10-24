@@ -1,5 +1,5 @@
 /FI "F:\Epic Games\UE_5.0\Engine\Plugins\FX\Niagara\Intermediate\Build\Win64\UnrealEditor\Development\NiagaraVertexFactories\Definitions.NiagaraVertexFactories.h" 
-/FI "F:\Unreal Projects\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h" 
+/FI "F:\erikanes\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h" 
 /I "F:\Epic Games\UE_5.0\Engine\Source" 
 /I "F:\Epic Games\UE_5.0\Engine\Plugins\FX\Niagara\Source\NiagaraVertexFactories\Private" 
 /I "F:\Epic Games\UE_5.0\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Core" 

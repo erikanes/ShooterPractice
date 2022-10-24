@@ -1,27 +1,37 @@
 [
 	{
-		"file": "F:\\Unreal Projects\\Shooter\\Source\\Shooter\\Shooter.Build.cs",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\Unreal Projects\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp\"",
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\Shooter.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp",
 		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "F:\\Unreal Projects\\Shooter\\Source\\Shooter\\Shooter.cpp",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\Unreal Projects\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp\"",
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\Shooter.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp",
 		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "F:\\Unreal Projects\\Shooter\\Source\\Shooter\\Shooter.h",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\Unreal Projects\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp\"",
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\Shooter.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp",
 		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "F:\\Unreal Projects\\Shooter\\Source\\Shooter\\ShooterGameModeBase.cpp",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\Unreal Projects\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp\"",
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\ShooterCharacter.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp",
 		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
-		"file": "F:\\Unreal Projects\\Shooter\\Source\\Shooter\\ShooterGameModeBase.h",
-		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @\"F:\\Unreal Projects\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp\"",
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\ShooterCharacter.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp",
+		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\ShooterGameModeBase.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp",
+		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\ShooterGameModeBase.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Default\\Shooter.211.rsp",
 		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
 	}
 ]

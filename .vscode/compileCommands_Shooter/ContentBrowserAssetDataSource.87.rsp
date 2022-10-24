@@ -1,5 +1,5 @@
 /FI "F:\Epic Games\UE_5.0\Engine\Plugins\Editor\ContentBrowser\ContentBrowserAssetDataSource\Intermediate\Build\Win64\UnrealEditor\Development\CBAssetDataSource\Definitions.ContentBrowserAssetDataSource.h" 
-/FI "F:\Unreal Projects\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h" 
+/FI "F:\erikanes\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h" 
 /I "F:\Epic Games\UE_5.0\Engine\Source" 
 /I "F:\Epic Games\UE_5.0\Engine\Plugins\Editor\ContentBrowser\ContentBrowserAssetDataSource\Source\ContentBrowserAssetDataSource\Private" 
 /I "F:\Epic Games\UE_5.0\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\ApplicationCore" 
