@@ -7,6 +7,7 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Sound/SoundCue.h"
 #include "Kismet/GameplayStatics.h"
+#include "Particles/ParticleSystem.h"
 
 // Sets default values
 AShooterCharacter::AShooterCharacter() : BaseTurnRate(45.f), BaseLookUpRate(45.f)
@@ -108,6 +109,10 @@ void AShooterCharacter::FireWeapon()
 	if (FireSound)
 	{
 		UGameplayStatics::PlaySound2D(this, FireSound);
+	}
+	if (MuzzleFlash)
+	{
+		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), "SMG_Barrel");
 	}
 }
 
