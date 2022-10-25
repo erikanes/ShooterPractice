@@ -39,6 +39,8 @@ protected:
 	void TurnAtRate(float Value);
 	void LookUpAtRate(float Value);
 
+	void FireWeapon();
+
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	USpringArmComponent* CameraBoom;
