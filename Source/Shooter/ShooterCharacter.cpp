@@ -6,7 +6,7 @@
 #include "Camera/CameraComponent.h"
 
 // Sets default values
-AShooterCharacter::AShooterCharacter()
+AShooterCharacter::AShooterCharacter() : BaseTurnRate(45.f), BaseLookUpRate(45.f)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -42,6 +42,45 @@ void AShooterCharacter::Tick(float DeltaTime)
 void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	check(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis("MoveForward", this, &AShooterCharacter::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AShooterCharacter::MoveRight);
+	PlayerInputComponent->BindAxis("TurnRate", this, &AShooterCharacter::TurnAtRate);
+	PlayerInputComponent->BindAxis("LookUp", this, &AShooterCharacter::LookUpAtRate);
+}
+
+void AShooterCharacter::MoveForward(float Value)
+{
+	if ((Controller != nullptr) && (Value != 0.f))
+	{
+		const FRotator Rotation = GetControlRotation();
+		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, Value);
+	}
+}
+
+void AShooterCharacter::MoveRight(float Value)
+{
+	if ((Controller != nullptr) && (Value != 0.f))
+	{
+		const FRotator Rotation = GetControlRotation();
+		const FRotator YawRotation(0.f, Rotation.Yaw, 0.f);
+
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		AddMovementInput(Direction, Value);
+	}
+}
+
+void AShooterCharacter::TurnAtRate(float Value)
+{
+	AddControllerYawInput(BaseTurnRate * Value * GetWorld()->GetDeltaSeconds());
+}
+
+void AShooterCharacter::LookUpAtRate(float Value)
+{
+	AddControllerPitchInput(BaseLookUpRate * Value * GetWorld()->GetDeltaSeconds());
 }
 
