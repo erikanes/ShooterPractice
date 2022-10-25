@@ -8,6 +8,7 @@
 
 class USpringArmComponent;
 class UCameraComponent;
+class USoundCue;
 
 UCLASS()
 class SHOOTER_API AShooterCharacter : public ACharacter
@@ -51,4 +52,7 @@ private:
 	float BaseTurnRate;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	float BaseLookUpRate;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
+	USoundCue* FireSound;
 };
