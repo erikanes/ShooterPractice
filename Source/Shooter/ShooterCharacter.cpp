@@ -114,5 +114,11 @@ void AShooterCharacter::FireWeapon()
 	{
 		UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GetMesh(), "SMG_Barrel");
 	}
+	UAnimInstance* AnimInstance = GetMesh()->GetAnimInstance();
+	if (AnimInstance && HipFireMontage)
+	{
+		AnimInstance->Montage_Play(HipFireMontage);
+		AnimInstance->Montage_JumpToSection(FName("StartFire"));
+	}
 }
 

@@ -10,6 +10,7 @@ class USpringArmComponent;
 class UCameraComponent;
 class USoundCue;
 class UParticleSystem;
+class UAnimMontage;
 
 UCLASS()
 class SHOOTER_API AShooterCharacter : public ACharacter
@@ -56,7 +57,10 @@ private:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
 	USoundCue* FireSound;
-	
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
 	UParticleSystem* MuzzleFlash;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Combat, meta = (AllowPrivateAccess = "true"))
+	UAnimMontage* HipFireMontage;
 };
