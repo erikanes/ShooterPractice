@@ -46,6 +46,8 @@ void UShooterAnimInstance::UpdateAnimationProperties(float DeltaTime)
         {
             LastMovementOffsetYaw = MovementOffsetYaw;
         }
+
+        bAiming = ShooterCharacter->IsAiming();
         // if (GEngine)
         // {
         //     FString OffsetMessage = FString::Printf(TEXT("Movement Offset Yaw: %f"), AimRotation.Yaw);

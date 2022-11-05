@@ -25,6 +25,16 @@
 		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
 	},
 	{
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\ShooterAnimInstance.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Shooter\\Shooter.211.rsp",
+		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\ShooterAnimInstance.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Shooter\\Shooter.211.rsp",
+		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
+	},
+	{
 		"file": "F:\\erikanes\\Shooter\\Source\\Shooter\\ShooterGameModeBase.cpp",
 		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @F:\\erikanes\\Shooter\\.vscode\\compileCommands_Shooter\\Shooter.211.rsp",
 		"directory": "F:\\Epic Games\\UE_5.0\\Engine\\Source"
