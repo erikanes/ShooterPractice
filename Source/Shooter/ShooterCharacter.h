@@ -63,6 +63,12 @@ protected:
 	UFUNCTION()
 	void FinishCrosshairBulletFire();
 
+	void FireButtonPressed();
+	void FireButtonReleased();
+	void StartFireTimer();
+	UFUNCTION()
+	void AutoFireReset();
+
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	USpringArmComponent* CameraBoom;
@@ -135,4 +141,11 @@ private:
 	float ShootTimeDuration;
 	bool bFiringBullet;
 	FTimerHandle CrosshairShootTimer;
+
+	bool bFireButtonPressed;
+	/* 사격 가능 여부 */
+	bool bShouldFire;
+	/* 사격 속도 */
+	float AutomaticFireRate;
+	FTimerHandle AutoFireTimer;
 };
